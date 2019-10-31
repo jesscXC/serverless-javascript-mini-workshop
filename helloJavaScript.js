@@ -1,5 +1,5 @@
 function main(params) {
-    var name = params.name || 'User';
-    var place = params.place || 'Vulcan';
-    return {greetings:  'Hello from ' + name + ' location: ' + place};
+  let name = params.name || 'Friend';
+  let place = params.place || 'World';
+  return { greetings: 'Hello from ' + name + ' location: ' + place };
 }
